@@ -1,0 +1,129 @@
+.centered {
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    margin-top: -50px;
+  }
+
+.header_txt{
+    color:#0660F5;
+    /* font-weight: bolder; */
+}
+.prgaf_txt{
+    font-size:20px;
+    font-weight: bolder;
+}
+.small_size_btn{
+    font-size:14px;
+}
+
+main{
+    padding-top:8%;
+}
+
+/* bolmeler menusu olan css kodu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* bolmeler menusu olan css kodu  sonlandi*/
+
+  /* bolmeler menusunun icerliyi*/
+  ul.menu-list{
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    display:block;
+    margin: 0 auto;
+}
+ul.menu-list li {
+    font-size: 13px;
+    line-height: 40px;
+    padding-bottom: 5px;
+}
+ul.menu-list li:before {
+    float: left;
+    width:100%;
+    padding-top: 10px;
+    color: #cacaca;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " 
+    ". . . . . . . . . . . . . . . . . . . . "". . . . . . . . . . . . . . . . . . . . " ;
+}
+ul.menu-list span:first-child {
+    padding-right: 0.33em;
+    font-weight: 400;
+}
+ul.menu-list span + span {
+    float: right;
+    padding-left: 0.33em;
+    margin-top: -3px;
+}
+ul.menu-list sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+ul.menu-list span:nth-child(3) {
+    display: block; 
+    clear: both; 
+    text-align: left;
+    width:100%;
+    float: left;
+    padding-left: 0.33em;
+    padding-right: 0.33em;
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-left: -5px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-top: -12px;
+}
+span{
+    font-size:15px;
+}
+table{
+    border: none;
+}
+ /* bolmeler menusunun icerliyi bitdi*/
+
+ .head_txt_{
+color:#0660F5;
+ }
