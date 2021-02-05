@@ -1,0 +1,24 @@
+
+/* .btn, .btn-group, .dropdown-menu{
+    width:100%;
+    margin:10px 0;
+} */
+.logo{
+  margin-top:50%;
+}
+.logo img{
+    margin:0 auto;
+    position: relative;
+    display: block;
+}
+
+.middle button{
+    width:100%;
+    margin:10px 0;
+}
+
+.orient_{
+    margin-top:90%;
+    margin-left:25%;;
+}
+

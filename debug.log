@@ -1,0 +1,5 @@
+[0127/171331.789:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0127/171331.815:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\imran.bayramov\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\d7552c92-4ec5-44cb-b1f3-9bed844bd55a: The system cannot find the path specified. (0x3)
+[0127/171331.839:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\imran.bayramov\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\551de54d-f073-421a-a8de-ae840be734da: The system cannot find the path specified. (0x3)
+[0127/171331.886:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\imran.bayramov\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\fb2be614-1e5f-483a-8637-5177885d4a1d: The system cannot find the path specified. (0x3)
+[0127/171331.896:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\imran.bayramov\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\c43ff121-f724-4446-8a1d-135cdae8478d: The system cannot find the path specified. (0x3)
