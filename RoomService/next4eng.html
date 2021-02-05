@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Room Service</title>
+</head>
+<body>
+    <div class="container">
+    <div class="logo_name"><br><br>
+        <img src="image/M.png" alt="" width="150" height="200" class="logo">
+        <!-- <h1 class="text-center restaurant_name"> Otaq Xidməti </h1> <br>
+        <h4 class="text-center">Menyu</h4> -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <div class="container">
+              <h2 class="text-center" style="color:white;"></h2><br>
+          <ul class="menu-list top_list">
+            <li>
+              <a href="good_morning.html" class="color-black text-center" style="font-size:17px; color:white;">Good morning, dear guest.</a>
+          </li>
+              <li>
+                  <a href="next1eng.html" class="color-black text-center" style="font-size:17px; color:white;">“A la carte” Breakfast</a>
+              </li>
+             
+              <li>
+                <a href="next2eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Starters</a>
+            </li>
+            <li>
+              <a href="next3eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Soups</a>
+            </li>
+            <li>
+              <a href="next4eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Salads & Starters</a>
+            </li>
+            <li>
+              <a href="next5eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Sandwiches, Wraps, Paninis & Burgers</a>
+            </li>
+            <li>
+              <a href="next6eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Pastas</a>
+            </li>
+            <li>
+              <a href="next7eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Pizzas</a>
+            </li>
+            <li>
+              <a href="next8eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Main courses</a>
+            </li>
+            <li>
+              <a href="next9eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Side Orders (V)</a>
+            </li>
+            <li>
+              <a href="next10eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Desserts</a>
+            </li>
+
+            <li>
+              <a href="next11eng.html" class="color-black price_doc" style="font-size:17px; color:white;">After Midnight menu (23:00 - 08:00)</a>
+            </li>
+            <li>
+              <a href="next13eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Beverage menu</a>
+            </li>
+            <li>
+              <a href="next14eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Soft drinks</a>
+            </li>
+            <li>
+              <a href="next15eng.html" class="color-black price_doc" style="font-size:17px; color:white;">Alcoholic Drinks </a>
+            </li>
+          </ul>     
+      </div></div>
+    </div>
+    <span style="font-size:30px;cursor:pointer; color:#c8c4ab; font-weight: bolder;" onclick="openNav()">&#9776; Sections</span>
+      </div>
+        <!-- <div class="container">
+            <h2 class="text-center">Salatlar və Qəlyanaltılar</h2><br><br><br><br><br>
+            
+        <ul class="menu-list">
+            <li>
+                <span class="color-black">yunan Salatı</span>
+                <span class="color-black">"14 AZN"</span>
+                <span class="color-black">Pomidor Xiyar,kahı, feta pendiri, zeytun, bibər <br> Limon və Zeytun yağı ilə servis edilir</span>
+            </li>
+            <li>
+                <span class="color-black">Lionez Salatı</span>
+                <span class="color-black">"16 AZN"</span>
+                <span class="color-black">Kahı, qırmızı reyhan, roka yarpaqları, yaşıl noxud, qrildə dana ətindən filə <br> evsayağı qurudulmuş pomidor, haşlanmış yumurta, fransızsayağı sous</span>
+            </li>
+            <li>
+                <span class="color-black">Toyuqlu Sezar Salatı</span>
+                <span class="color-black">"18 AZN"</span>
+                <span class="color-black">Kahı,qurudulmuş pomidor, parmezan pendiri, qrildə hazırlanmış toyuq filesi, <br>sarımsaqlı suxarı, Sous: Evsayağı mayonez, limon qabığı, hisə verilmiş ançous balığı</span>
+            </li>
+            <li>
+                <span class="color-black">Dəniz Məhsulları ilə <br> Sezar Salatı</span>
+                <span class="color-black">"14 AZN"</span>
+                <span class="color-black">Orta qızardılmış krevetvə skallop, qurudulmuş pomidor, parmezan pendiri, <br>qrildə hazırlanmış toyuq filesi, sarımsaqlı suxarı, Sous: Evsayağı mayonez, <br>limon qabığı, hisə verilmiş ançous balığı</span>
+            </li>
+            <li>
+                <span class="color-black">Manqal Salatı</span>
+                <span class="color-black">"9 AZN"</span>
+                <span class="color-black">Qrildə qızardılmış badımcan, pomidor, bolqar bibəri, qırmızı soğan, <br>sarımsaq, cəfəri, zeytun yağı</span>
+            </li>
+            <li>
+                <span class="color-black"><a href="next3.html"><button class="btn btn-dark" >Geriyə</button></a></span>
+                <span class="color-black"><a href="italyan_pastaları.html"><button class="btn btn-dark" >Növbəti </button></a></span>
+            </li>
+        </ul>
+    </div>
+          </div> -->
+         
+          <div class="table-responsive container" ><br><br>
+            <h3 class="text-center">Salads & Starters </h3><br>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col"><h3></h3></th>
+                  <th scope="col"><h3></h3></th>
+                  <th scope="col"> <h3></h3> </th>
+                </tr>
+              </thead>
+              <tbody>  
+                <tr>
+                    <td><h5 class="txt_size text-left">Greek Salad (V) </h5>
+                    <span>Lettuce, capsicum, cucumber, tomato, feta cheese, olives.
+                        Lemon & olive oil dressing.
+                        </span></td>
+                    <td></td>
+                    <td class="price text-right" > <h5>14 AZN</h5></td>
+                  </tr>
+                <tr>
+                  <td><h5 class="txt_size text-left">Salad Lyonnaise</h5>
+                  <span>Lettuce, red basil, rocket leaves, green beans, grilled beef fillet.
+                    Home-made sundried tomato, poached egg, french dressing.
+                    s</span></td>
+                  <td></td>
+                  <td class="price text-right" > <h5>16 AZN</h5></td>
+                </tr>
+                <tr>
+                  <td><h5 class="txt_size text-left">Chicken Caesar Salad</h5>
+                  <span>Romaine lettuce, sundried tomato, poached egg, grilled chicken breast, garlic croutons.
+                    Dressing homemade mayonnaise, lemon zest, smoked anchovies fish.
+                    </span></td>
+                  <td></td>
+                  <td class="price text-right" > <h5>18 AZN</h5></td>
+                </tr>
+                <tr>
+                    <td><h5 class="txt_size text-left">Seafood Caesar Salad</h5>
+                    <span>Pan-fried prawns & scallops, sundried tomato, poached egg,
+                        romaine lettuce, garlic croutons. 
+                        Dressing homemade mayonnaise, lemon zest, smoked anchovies fish.
+                        </span></td>
+                    <td></td>
+                    <td class="price text-right" > <h5>20 AZN</h5></td>
+                  </tr>
+                  <!-- <tr>
+                    <td><h5 class="txt_size text-left">Mangal Salad</h5>
+                    <span>Grilled eggplant, tomato, bell pepper, onion shallot, garlic, 
+                        parsley, olive oil.
+                        </span></td>
+                    <td></td>
+                    <td class="price text-right" > <h5>9 AZN</h5></td>
+                  </tr> -->
+              </tbody>
+              </thead>
+              <thead>
+                <tr> 
+                    <td class="price text-left"><span class="color-black"><a href="next3eng.html"><button class="btn btn-dark" >Back</button></a></span></td>
+                    <td></td>
+                    <td class="price text-right"><span class="color-black"><a href="next5eng.html"><button class="btn btn-dark" >Next </button></a></span></td>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="Javascript/index.js"></script> 
+</body>
+</html>
